@@ -3,7 +3,7 @@ import pluginJs from "@eslint/js";
 
 export default [
   {
-    files: ["**/*.js"],
+    files: ["**/*.js"],   
     languageOptions: { sourceType: "module" },
     env: {
       node: true, // This will define `process` and other globals available in Node.js
